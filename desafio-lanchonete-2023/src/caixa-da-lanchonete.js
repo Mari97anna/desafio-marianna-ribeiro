@@ -74,10 +74,12 @@ class CaixaDaLanchonete {
             console.log((valorTotalDaCompra + (valorTotalDaCompra * 0.03)).toFixed(2))
         }
         else {
-            console.log((`Valor da compra: ${valorTotalDaCompra}.`).toFixed(2))
+            console.log(valorTotalDaCompra.toFixed(2))
         }
     }
 }
+
+
 
 let caixaObj = new CaixaDaLanchonete()
 
